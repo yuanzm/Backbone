@@ -1,0 +1,27 @@
+{
+  "name": "Backbone-SPA-Boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yuanzm/Backbone-SPA-Boilerplate",
+  "authors": [
+    "yuanzm <1229084233@qq.com>"
+  ],
+  "description": "backbone SPA boilerplate",
+  "main": "main.js",
+  "keywords": [
+    "SPA",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4"
+  }
+}
