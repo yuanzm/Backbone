@@ -2,7 +2,7 @@
   "name": "Backbone-SPA-Boilerplate",
   "version": "0.0.1",
   "description": "boilerplate spa backbone",
-  "main": "app.js",
+  "main": "index.html",
   "scripts": {
     "test": "mocha"
   },

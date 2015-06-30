@@ -58,13 +58,7 @@
       less: {
         components: {
           files: {
-            'dist/css/layout.css': ['src/components/**/*.less', 'src/common/**/*.less'],
-            'dist/css/signup.css': ['src/pages/sign/signup.less'],
-            'dist/css/signin.css': ['src/pages/sign/signin.less'],
-            'dist/css/chat.css': ['src/pages/chat/chat.less'],
-            'dist/css/setting.css': ['src/pages/account/setting.less'],
-            'dist/css/userinfo.css': ['src/pages/user/index.less'],
-            'dist/css/home.css': ['src/pages/home/home.less']
+            'dist/css/layout.css': ['src/templates/components/**/*.less', 'src/common/**/*.less']
           }
         }
       }
@@ -76,7 +70,7 @@
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-watch');
     return grunt.registerTask('default', function() {
-      return grunt.task.run(['browserify', 'connect', 'watch']);
+      return grunt.task.run(['less','browserify', 'connect', 'watch']);
     });
   };
 

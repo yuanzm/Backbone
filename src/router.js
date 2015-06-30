@@ -3,8 +3,7 @@ var Vm = require('./vm.js');
 
 var AppRouter = Backbone.Router.extend({
 	routes: {
-		'about': 'about',
-
+		'about': 'about',	// 关于页面
 		'*actions': 'defaultAction'	
 	}
 });
