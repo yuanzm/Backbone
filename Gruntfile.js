@@ -33,7 +33,7 @@
         },
         watch: {
             compile: {
-                files: ['src/**/*.less', 'src/**/*.js'],
+                files: ['src/**/*.less', 'src/**/*.js', 'src/**/*.html'],
                 tasks: ['browserify', 'less']
             }
         },
